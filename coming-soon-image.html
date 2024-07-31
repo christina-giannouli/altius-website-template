@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta Tags -->
+    <meta name="description" content="Altius coming soon page demo." />
+    <meta name="author" content="Pixelosaur" />
+    <title>Altius | Coming Soon</title>
+
+    <!-- Favicons:: Replace with yours -->
+    <link rel="shortcut icon" href="img/favicons/favicon-32x32.png">
+
+    <!-- Stylesheets and Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700|Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animsition.min.css">
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" id="default" href="css/colors/colors.css" />
+
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body class="fullWidth">
+
+  <div id="loading" class="loadSpinner">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="object" id="object_four"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_one"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="animsition">
+
+    <header class="relPosition transparentHeader">
+      <div class="headerWrapper">
+        <div class="comingSoonNav">
+          <div class="row stretched clearfix">
+
+            <div id="logo" class="small-12 medium-4 large-4 columns"><a href="index.html"><img src="img/logo.png" alt="Altius Logo"></a></div>
+
+            <div class="small-12 medium-8 large-8 columns hide-for-small-only">
+              <ul class="inline-list">
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                <li><a href="#"><span class="icon-behance"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+       </div>
+    </header>
+
+    <div class="heroWrapper relPosition">
+      <!-- Hero Banner Starts -->
+      <div class="hero heroFullScreen relPosition" style="background-image: url('img/main-hero-img-22.jpg');background-position: 50% 50%;">
+        <div class="row">
+          <div class="heroIntro verticalCenter padding">
+
+            <div class="small-12 medium-10 large-7 small-centered columns">
+              <h1 class="text-center">We're Coming Soon!</h1>
+              <div class="dividerCenter"></div>
+              <p class="text-center lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae debitis quibusdam aliquid error quisquam sunt, veniam perspiciatis eum iste quaerat quae blanditiis odio! Perferendis eligendi, blanditiis dolor cumque culpa neque?</p>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div class="small-12 medium-12 large-7 small-centered columns">
+              <div class="countdown comingSoon" id="counting"></div>
+
+              <script>
+                jQuery(document).on('ready', function() {
+                  var newDate = new Date(2017, 5, 31);
+                  $('#counting').countdown({until: newDate});
+                });
+              </script>
+            </div>
+            <!-- Countdown Timer End -->
+
+            <div class="small-12 medium-8 large-5 small-centered columns">
+              <!-- Mailchimp Form Start -->
+              <form id="mc_form" class="clearfix">
+
+                <div class="row collapse">
+                  <div class="small-12 medium-8 large-8 columns">
+                    <input type="email" name="mc_email" id="mc_email" placeholder="Enter your valid e-mail">
+                  </div>
+                  
+                  <div class="small-12 medium-4 large-4 columns">
+                    <input type="submit" name="mc_submit" id="mc_submit" value="GET NOTIFIED!">
+                  </div>
+
+                  <div class="small-12 columns">
+                    <label for="mc_email" id="mc_msg"></label>
+                  </div>
+                </div>
+                         
+              </form>
+              <!-- Mailchimp Form End -->
+            </div>
+
+          </div>
+        </div> 
+
+      </div>
+      <!-- Hero Banner Ends -->
+    </div>
+
+  </div>
+
+    <div id="switcher">
+      <div id="switcherIcon" class="icon-paintbrush"></div>
+
+      <div class="switcherInner">
+        <div><p>Pick A Color</p></div>
+
+        <div id="styleOptions" class="versions clearfix">
+          <a href="#" rel="css/colors/colors.css" class="bgRed"></a>
+          <a href="#" rel="css/colors/blue-grey.css" class="bgBlueGrey"></a>
+          <a href="#" rel="css/colors/blue.css" class="bgBlue"></a>
+          <a href="#" rel="css/colors/bright-green.css" class="bgBGreen"></a>
+          <a href="#" rel="css/colors/cyan.css" class="bgCyan"></a>
+          <a href="#" rel="css/colors/deep-orange.css" class="bgOrange"></a>
+          <a href="#" rel="css/colors/green.css" class="bgGreen"></a>
+          <a href="#" rel="css/colors/indigo.css" class="bgIndigo"></a>
+          <a href="#" rel="css/colors/light-brown.css" class="bgBrown"></a>
+          <a href="#" rel="css/colors/purple.css" class="bgPurple"></a>
+          <a href="#" rel="css/colors/yellow.css" class="bgYellow"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="buy">
+      <div id="buyIcon" class="icon-basket"></div>
+      <div class="buyInner">
+        <div><a href="http://themeforest.net/item/altius-multipurpose-html5-template/13337089">Purchase Now</a></div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/vendor/jquery.cookie.js"></script>
+    <script src="js/style-switcher.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,733 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta Tags -->
+    <meta name="description" content="Altius blog single page demo." />
+    <meta name="author" content="Pixelosaur" />
+    <title>Altius Blog | Single Blog Page Layout #1</title>
+
+    <!-- Favicons:: Replace with yours -->
+    <link rel="shortcut icon" href="img/favicons/favicon-32x32.png">
+
+    <!-- Stylesheets and Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700|Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animsition.min.css">
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" id="default" href="css/colors/colors.css" />
+
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body class="boxed">
+
+  <div id="loading" class="loadSpinner">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="object" id="object_four"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_one"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="animsition">
+
+    <header class="relPosition">
+      <div id="autoHide" class="headerWrapper fixedHeader bgGrey"> 
+        <div class="row stretched">
+          <div class="navWrapper clearfix">
+
+            <div class="small-12 medium-12 large-4 columns">
+              <!-- Logo Area -->
+              <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Altius Logo"></a>
+              </div>
+            </div>
+            
+            <div class="small-12 medium-12 large-8 columns noPaddingRight">
+              <!-- ==========================================
+                   Mega Menu Starts 
+              =============================================== -->
+              <div id="mobileMenuTrigger" class="hide-for-large-up"><i class="icon-menu"></i></div>
+
+              <nav id="primaryMenu">
+
+                <ul class="clearfix">
+                  <li><a href="#">Home</a>
+                    <ul>
+                      <li><a href="index.html">Home Default</a>
+                      <li class="dropDown"><a href="#">Home - Creative</a>
+                        <ul>
+                          <li><a href="index-creative.html">Creative - Layout 1</a></li>
+                          <li><a href="index-creative-2.html">Creative - Layout 2</a></li>
+                          <li><a href="index-creative-3.html">Creative - Layout 3</a></li>
+                          <li><a href="index-creative-4.html">Creative - Layout 4</a></li>
+                          <li><a href="index-creative-5.html">Creative - Layout 5</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - Corporate</a>
+                        <ul>
+                          <li><a href="index-corporate.html">Corporate - Layout 1</a></li>
+                          <li><a href="index-corporate-2.html">Corporate - Layout 2</a></li>
+                          <li><a href="index-corporate-3.html">Corporate - Layout 3</a></li>
+                          <li><a href="index-corporate-4.html">Corporate - Layout 4</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - Portfolio</a>
+                        <ul>
+                          <li><a href="index-portfolio.html">Portfolio - Layout 1</a></li>
+                          <li><a href="index-portfolio-2.html">Portfolio - Layout 2</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - Blog</a>
+                        <ul>
+                          <li><a href="index-blog.html">Blog - Layout 1</a></li>
+                          <li><a href="index-blog-2.html">Blog - Layout 2</a></li>
+                          <li><a href="index-blog-3.html">Blog - Layout 3</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - FullScreen</a>
+                        <ul>
+                          <li><a href="index-fullscreen-image.html">FullScreen - Image</a></li>
+                          <li><a href="index-fullscreen-video.html">FullScreen - Video</a></li>
+                          <li><a href="index-fullscreen-slider.html">FullScreen - Slider</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - FullWidth</a>
+                        <ul>
+                          <li><a href="index-fullwidth-image.html">FullWidth - Image</a></li>
+                          <li><a href="index-fullwidth-video.html">FullWidth - Video</a></li>
+                          <li><a href="index-fullwidth-slider.html">FullWidth - Slider</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - Boxed</a>
+                        <ul>
+                          <li><a href="index.html">Boxed - Image</a></li>
+                          <li><a href="index-video.html">Boxed - Video</a></li>
+                          <li><a href="index-slider.html">Boxed - Slider</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropDown"><a href="#">Home - One Page <span class="label"> NEW! </span></a>
+                        <ul>
+                          <li><a href="onepage-creative.html">Creative</a></li>
+                          <li><a href="onepage-architecture.html">Architecture</a></li>
+                          <li><a href="onepage-photography.html">Photography</a></li>
+                          <li><a href="onepage-restaurant.html">Restaurant</a></li>
+                          <li><a href="onepage-webservice.html">Web Service <span class="label"> NEW! </span></a></li>
+                          <li><a href="onepage-app.html">App Showcase <span class="label"> NEW! </span></a></li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                  </li>
+
+                  <li class="dropDown megaMenu"><a href="#">Pages</a>
+                    <div class="megaMenuContent cols3 clearfix">
+
+                      <ul>
+                        <li><a href="about.html">About Us - Layout 1</a></li>
+                        <li><a href="about-2.html">About Us - Layout 2</a></li>
+                        <li><a href="about-3.html">About Us - Layout 3</a></li>
+                        <li><a href="about-me.html">About Me</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="team-members.html">Team Members</a></li>
+                      </ul>
+
+                      <ul>
+                        <li><a href="services.html">Services - Layout 1</a></li>
+                        <li><a href="services-2.html">Services - Layout 2</a></li>
+                        <li><a href="services-3.html">Services - Layout 3</a></li>
+                        <li><a href="contact.html">Contact - Layout 1</a></li>
+                        <li><a href="contact-2.html">Contact - Layout 2</a></li>
+                        <li><a href="contact-3.html">Contact - Layout 3</a></li>
+                      </ul>
+
+                      <ul>
+                        <li><a href="404.html">404 Page</a></li>
+                        <li><a href="faq.html">FAQ - Layout 1</a></li>
+                        <li><a href="faq-2.html">FAQ - Layout 2</a></li>
+                        <li><a href="sidebar.html">Page With Sidebar</a></li>
+                        <li><a href="coming-soon-video.html">Coming Soon - Video</a></li>
+                        <li><a href="coming-soon-image.html">Coming Soon - Image</a></li>
+                      </ul>
+
+                    </div>
+
+                  </li>
+
+                  <li><a href="#">Portfolio</a>
+                    <ul>
+                      <li><a href="portfolio-2col-grid.html">2 Column Grid</a></li>
+                      <li><a href="portfolio-2col-grid-full.html">2 Column Grid Full</a></li>
+                      <li><a href="portfolio-3col-grid.html">3 Column Grid</a></li>
+                      <li><a href="portfolio-3col-grid-full.html">3 Column Grid Full</a></li>
+                      <li><a href="portfolio-4col-grid.html">4 Column Grid <span class="label"> NEW! </span></a></li>
+                      <li><a href="portfolio-4col-grid-full.html">4 Column Grid Full <span class="label"> NEW! </span></a></li>
+                      <li><a href="portfolio-grid-no-gutter.html">Grid Without Gutter</a></li>
+                      <li><a href="portfolio-3col-masonry.html">3 Column Masonry</a></li>
+                      <li><a href="portfolio-3col-masonry-full.html">3 Column Masonry Full</a></li>
+                      <li><a href="portfolio-masonry-no-gutter.html">Masonry Without Gutter</a></li>
+                      <li><a href="portfolio-mixed-masonry.html">Mixed Masonry</a></li>
+                      <li><a href="portfolio-single-1.html">Single Page - Layout 1</a></li>
+                      <li><a href="portfolio-single-2.html">Single Page - Layout 2</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropDown megaMenu">
+                    <a href="#">Blog</a>
+                    <div class="megaMenuContent cols3 clearfix">
+
+                      <ul>
+                        <li class="megaMenuTitle">Blog Grid Styles</li>
+                        <li><a href="blog-2col-grid-white.html">2 Column Grid</a></li>
+                        <li><a href="blog-3col-grid-white.html">3 Column Grid</a></li>
+                        <li><a href="blog-4col-grid-black.html">4 Column Grid</a></li>
+                        <li><a href="blog-grid-full.html">Full Wide Grid</a></li>
+                      </ul>
+
+                      <ul>
+                        <li class="megaMenuTitle">Other Blog Styles</li>
+                        <li><a href="blog-3col-masonry.html">Masonry 3 Columns</a></li>
+                        <li><a href="blog-4col-masonry.html">Masonry 4 Columns</a></li>
+                        <li><a href="blog-masonry-full.html">Masonry Full Wide</a></li>
+                        <li><a href="blog-stacked.html">Blog Stacked</a></li>
+                      </ul>
+
+                      <ul>
+                        <li class="megaMenuTitle">Single Blog Pages</li>
+                        <li><a href="blog-single-1.html">Single - Layout 1</a></li>
+                        <li><a href="blog-single-2.html">Single - Layout 2</a></li>
+                        <li><a href="blog-single-1-sidebar.html">Single - Right Sidebar</a></li>
+                        <li><a href="blog-single-2-sidebar.html">Single - Left Sidebar</a></li>
+                      </ul>
+
+                    </div>
+                  </li>
+
+                  <li><a href="#">Features</a>
+                    <ul>
+                      <li class="dropDown"><a href="#">Menu Styles</a>
+                        <ul class="menuInvert">
+                          <li><a href="menu-inline-mega.html">Inline Mega Menu</a></li>
+                          <li><a href="menu-overlay.html">FullScreen Overlay</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropDown"><a href="#">Header Styles</a>
+                        <ul class="menuInvert">
+                          <li><a href="header-boxed-transparent.html">Transparent</a></li>
+                          <li><a href="header-boxed-black.html">Black Header</a></li>
+                          <li><a href="header-boxed-white.html">White Header</a></li>
+
+                          <li class="dropDown"><a href="#">Full Width</a>
+                            <ul class="menuInvert">
+                              <li><a href="header-fullwidth-transparent.html">Transparent</a></li>
+                              <li><a href="header-fullwidth-black.html">Black Header</a></li>
+                              <li><a href="header-fullwidth-white.html">White Header</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="dropDown"><a href="#">Full Wide</a>
+                            <ul class="menuInvert">
+                              <li><a href="header-fullwide-transparent.html">Transparent</a></li>
+                              <li><a href="header-fullwide-black.html">Black Header</a></li>
+                              <li><a href="header-fullwide-white.html">White Header</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropDown"><a href="#">Footer Styles</a>
+                        <ul class="menuInvert">
+                          <li><a href="footer-small.html">Small Footer</a></li>
+                          <li><a href="footer-big.html">Big Footer 1</a></li>
+                          <li><a href="footer-big-2.html">Big Footer 2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropDown megaMenu">
+                    <a href="#">Components</a>
+                    <div class="megaMenuContent cols2 clearfix">
+
+                      <ul>
+                        <li><a href="buttons.html">Buttons</a></li>
+                        <li><a href="callouts-prompts.html">Callouts - Prompts</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="columns-grid.html">Columns - Grid</a></li>
+                        <li><a href="counters-skills.html">Counters - Skills</a></li>
+                        <li><a href="featured-boxes.html">Featured Boxes</a></li>
+                        <li><a href="icon-lists.html">Icon Lists</a></li>
+                      </ul>
+
+                      <ul>
+                        <li><a href="media.html">Media &amp; Carousel</a></li>
+                        <li><a href="sections.html">Page Sections</a></li>
+                        <li><a href="page-titles.html">Page Titles</a></li>
+                        <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                        <li><a href="tabs-accordions.html">Tabs - Accordions</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="typography.html">Typography</a></li>
+                      </ul>
+
+                    </div>
+                  </li>
+                </ul>  
+              </nav>
+              <!-- ==========================================
+                   Mega Menu Ends 
+              =============================================== -->
+            </div>
+                
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="heroWrapper blogHero relPosition">
+      <!-- Hero Banner Starts -->
+      <div class="row stretched" data-equalizer data-equalize-on="large">
+        <div class="small-12 medium-12 large-7 columns noPadding singleBlogMedia-1" data-equalizer-watch>
+          <img src="img/blog/single-blog-1.png" alt="">
+        </div>
+
+        <div class="small-12 medium-12 large-5 columns bgColor" data-equalizer-watch>
+          <div class="heroIntro padding clearfix">
+
+            <div class="meta">
+              <p><a href="#"><strong>Web Design</strong></a><span class="smallText"> / 05.09.15</span></p>
+            </div>
+            
+            <div class="dividerWhite"></div>
+
+            <h1>This is a standard post with image.</h1>
+
+            <!-- Sharing Buttons -->
+            <div class="shareBtns clearfix">
+              <p>Share This Post:</p>
+              
+              <a href="#" data-type="twitter" data-url="your url" data-description="your description" data-via="your username" class="prettySocial icon-twitter text-center"></a>
+                      
+              <a href="#" data-type="facebook" data-url="your url" data-description="your description" data-via="your username" class="prettySocial icon-facebook text-center"></a>
+
+              <a href="#" data-type="pinterest" data-url="your url" data-description="your description" data-via="your username" class="prettySocial icon-pinterest text-center"></a>
+
+              <a href="#" data-type="googleplus" data-url="your url" data-description="your description" data-via="your username" class="prettySocial icon-google-plus text-center"></a>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- Hero Banner Ends -->
+    </div>
+
+    <div class="mainWrapper">
+
+      <div class="bgWhite">
+          <div class="row padding">
+
+            <div class="small-12 medium-12 large-9 columns">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias impedit dolorem suscipit, quasi libero quaerat, eum rem possimus velit quas vero fuga voluptatibus soluta itaque et veniam voluptate. Accusamus, natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe animi corporis tempore maxime. Culpa esse id, tenetur quia, sapiente magni iusto totam incidunt impedit, quasi unde vitae veritatis porro mollitia?</p>
+
+              <p>Nobis itaque vero ratione perferendis aliquid at odio, <strong>laudantium fugiat delectus</strong> porro dicta reprehenderit quo neque veniam. Ab, officia, nihil? Consectetur adipisicing elit. Non fugit, <a href="#">doloribus voluptatibus</a> at repellat, voluptas repudiandae hic, reprehenderit porro incidunt, sequi pariatur quam neque. Voluptatibus quos totam at.</p>
+
+              <blockquote>Repudiandae optio asperiores odio suscipit error distinctio expedita alias iste rerum explicabo illum pariatur excepturi, corporis nihil praesentium at labore, qui nam. Alias adipisci aut quis quos cupiditate, veritatis soluta, quam voluptas maiores explicabo sapiente. Eos corporis perspiciatis officia, totam nostrum eveniet deserunt, impedit.</blockquote>
+
+              <div class="row">
+                <div class="small-12 medium-12 large-8 columns">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi consectetur, necessitatibus. Impedit rem delectus praesentium ducimus necessitatibus. Possimus, obcaecati, quis quasi tenetur voluptas numquam maxime tempore perspiciatis ut, distinctio ad.</p>
+
+                  <p>Harum odit rerum doloremque obcaecati a nisi, voluptates repudiandae quo alias earum reprehenderit, et quisquam molestias illum iusto quam facilis consequatur veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod fugit quibusdam dolor consequatur accusamus non sequi explicabo odio, natus commodi ducimus iusto tempora nesciunt, eum corporis temporibus quam, maxime. Unde? </p>
+                </div>
+                <div class="small-12 medium-12 large-4 columns">
+                  <ul class="iconList">
+                    <li><span class="icon-anchor coloredText"></span>Enim aliquam facilis totam vitae voluptate amet.</li>
+                    <li><span class="icon-anchor coloredText"></span>Aliquid mollitia numquam, obcaecati placeat minima.</li>
+                    <li><span class="icon-anchor coloredText"></span>Laborum quas provident culpa ea tempore debitis sit!</li>
+                    <li><span class="icon-anchor coloredText"></span>Illo minus cupiditate ducimus, accusamus.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <p>Qui, facere, iusto. Ad dicta earum ex illo, consectetur omnis cum, praesentium dolores est, cumque ipsam provident! Soluta asperiores itaque beatae qui! Quia et velit assumenda est molestias nisi sapiente. Animi nesciunt necessitatibus, <code> $(window).load(function() { ... }</code> magnam reprehenderit culpa accusantium quo est explicabo officia ducimus maxime doloremque.</p>
+
+<pre>
+/* An example block of code
+--------------------------------------*/
+
+.itemOne {
+  font-size: 1.125rem;
+  padding: 0 52px;
+  height: 68px;
+  line-height: 68px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+</pre>
+
+              <div class="row">
+                <div class="small-12 medium-12 large-8 columns noPadding">
+                  <!-- Post Tags -->
+                  <div class="tagCloud clearfix">
+                    <a class="float-left" href="#">html5</a>
+                    <a class="float-left" href="#">css3</a>
+                    <a class="float-left" href="#">themeforest</a>
+                    <a class="float-left" href="#">web design</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar Starts -->
+            <div class="small-12 medium-12 large-3 columns blogSidebar">
+
+              <div class="sidebarWidget">
+                <form action="search-results.html" method="get">
+                  <span class="icon-search3"></span>
+                  <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                </form>
+              </div>
+
+              <div class="sidebarWidget">
+                <div class="widgetTitle"><h6>Recent Posts</h6></div>
+                <div class="widgetContent">
+                  <ul class="iconList sidebarList">
+                    <li><span class="icon-angle-right"></span><a href="#">Hella Etsy mumblecore lo-fi.</a></li>
+                    <li><span class="icon-angle-right"></span><a href="#">Viral heirloom you probably haven't heard of them kogi.</a></li>
+                    <li><span class="icon-angle-right"></span><a href="#">Beard deep v ennui, ex aesthetic.</a></li>
+                    <li><span class="icon-angle-right"></span><a href="#">Hella Etsy health goth Kickstarter.</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="sidebarWidget clearfix">
+                <div class="widgetTitle"><h6>Tag Cloud</h6></div>
+                <div class="widgetContent tagCloud">
+                  <a class="float-left" href="#">general</a>
+                  <a class="float-left" href="#">videos</a>
+                  <a class="float-left" href="#">music</a>
+                  <a class="float-left" href="#">media</a>
+                  <a class="float-left" href="#">photography</a>
+                  <a class="float-left" href="#">design</a>
+                  <a class="float-left" href="#">wordpress</a>
+                </div>
+              </div>
+
+              <div class="sidebarWidget">
+                <div class="widgetTitle"><h6>Categories</h6></div>
+                <div class="widgetContent">
+                  <ul class="iconList sidebarList">
+                    <li><span class="icon-angle-right"></span><a href="#">News</a></li>
+                    <li><span class="icon-angle-right"></span><a href="#">Web Design</a></li>
+                    <li><span class="icon-angle-right"></span><a href="#">Photography</a></li>
+                    <li><span class="icon-angle-right"></span><a href="#">Graphic Design</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Sidebar Ends -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="sectionSeparator"></div>
+        </div>
+
+        <div class="bgWhite">
+          <div class="row padding stretched">
+            <div class="small-12 columns">
+              <!-- Post Navigation -->
+              <div class="postNav">
+                <div class="row">
+                  <div class="small-6 columns ">
+                    <a href="#" title="Previous Post Title"> <span class="icon-arrow-left"></span>Previous Post</a>
+                  </div>
+                  
+                  <div class="small-6 columns text-right ">
+                    <a href="#" title="Next Post Title">Next Post<span class="icon-arrow-right"></span></a>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row stretched">
+          <div class="sectionSeparator"></div>
+        </div>
+
+        <div class="bgWhite">
+          <ul class="row stretched small-up-1 medium-up-2 large-up-3 blogGrid no-bullet" data-equalizer>
+
+            <li class="bgWhite column" data-equalizer-watch>
+              <div class="blogDetails">
+                <div class="meta">
+                  <p><a href="#"><strong>Web Design</strong></a><span class="smallText"> / 08.12.15</span></p>
+                </div>
+                <h2 class="blogTitle"><a href="blog-single-1.html">Internal or "organic" sources whereas high standards in web-readiness.</a></h2>
+                <div class="divider"></div>
+                <a class="link" href="blog-single-1.html">go to article <span class="icon-arrow-right"></span></a>
+              </div>
+            </li>
+
+            <li class="bgWhite column" data-equalizer-watch>
+              <div class="blogDetails">
+                <div class="meta">
+                  <p><a href="#"><strong>Development</strong></a><span class="smallText"> / 07.02.15</span></p>
+                </div>
+                <h2 class="blogTitle"><a href="blog-single-2-sidebar.html">High standards in web-readiness.</a></h2>
+                <div class="divider"></div>
+                <a class="link" href="blog-single-1.html">go to article <span class="icon-arrow-right"></span></a>
+              </div>
+            </li>
+
+            <li class="bgWhite column" data-equalizer-watch>
+              <div class="blogDetails">
+                <div class="meta">
+                  <p><a href="#"><strong>Web Design</strong></a><span class="smallText"> / 06.10.15</span></p>
+                </div>
+                <h2 class="blogTitle"><a href="#">Customer service with robust ideas.</a></h2>
+                <div class="divider"></div>
+                <a class="link" href="#">go to article <span class="icon-arrow-right"></span></a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="bgBlack">
+          <div class="row padding">
+            <div class="small-12 medium-12 large-10 small-centered columns">
+              <!-- Author Box -->
+              <div class="authorBox clearfix">
+               
+                <div class="authorImg">
+                  <img src="img/blog/authorImg.png" alt="">
+                </div>
+                  
+                  <h5>Posted by Jane Doe</h5>
+                  <p>Consectetur adipisicing elit. Doloremque pariatur, consequatur, fugiat esse adipisci ullam magnam animi amet ipsam iusto itaque ipsum iure, voluptas. Officia nihil ipsam repudiandae est quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae fuga dolorum dolor perspiciatis praesentium laboriosam impedit similique maxime numquam fugit laborum illo reprehenderit quas tenetur, harum reiciendis aliquam! Enim, molestiae.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bgWhite">
+          <div class="row padding">
+            <div class="small-12 medium-12 large-10 small-centered columns">
+              <!-- Comments Section -->
+              <div id="comments" class="postComments">
+                <h5><span class="icon-comments"></span>Comments</h5>
+                <ol class="commentList clearfix">
+                  <li>
+                    <div class="commentBlock clearfix">
+                      <div class="commentThumb float-left">
+                        <img src="img/blog/commentsImg-1.png" alt="">
+                      </div>
+                      <a class="float-right" href="#"><span class="icon-reply"></span></a>
+                      <div class="commentMeta">
+                        <span class="authorName">Daniel Thompson</span>
+                        <span class="commentTime smallText">Just Now</span>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="commentContent">
+                        <p class="smallText">Beatae voluptatibus delectus, dolorum rem, accusantium deleniti incidunt adipisci officiis, provident, molestiae natus nemo! Obcaecati ullam fugiat, molestias. Nihil ad tempora molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem distinctio unde ullam repellendus voluptatem, at molestias vel delectus, quidem cumque nobis dicta veritatis, nesciunt deleniti optio! Quasi sunt perspiciatis vitae.</p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="commentBlock clearfix">
+                      <div class="commentThumb float-left">
+                        <img src="img/blog/commentsImg-2.png" alt="">
+                      </div>
+                      <a class="float-right" href="#"><span class="icon-reply"></span></a>
+                      <div class="commentMeta">
+                        <span class="authorName">Werner Brunner</span>
+                        <span class="commentTime smallText">on 02/03/15</span>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="commentContent">
+                        <p class="smallText">Consectetur odit obcaecati, dicta cumque dolores quos accusantium reprehenderit fugiat. Distinctio veniam architecto culpa autem, veritatis non adipisci quasi error doloremque quis. Magni incidunt quas doloribus ea voluptas cumque facilis, recusandae libero tempora minima ut velit dolorem dolor illo asperiores provident tempore error harum.</p>
+
+                        <p class="smallText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, rerum fugit minus ea repellat dicta debitis molestias tempore vitae iste? Quia pariatur quod esse autem, molestiae ipsa aspernatur beatae obcaecati.</p>
+                      </div>
+                    </div>
+
+                    <ul>
+                      <li>
+                        <div class="commentBlock clearfix">
+                          <div class="commentThumb float-left">
+                            <img src="img/blog/commentsImg-3.png" alt="">
+                          </div>
+                          <a class="float-right" href="#"><span class="icon-reply"></span></a>
+                          <div class="commentMeta">
+                            <span class="authorName">Alexia Denis</span>
+                            <span class="commentTime smallText">on 10/03/15</span>
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="commentContent">
+                            <p class="smallText">Dolorum odio, reprehenderit ex voluptate suscipit impedit debitis similique consequuntur iste omnis. Amet itaque animi officiis, et ullam sint nemo cum fuga. Voluptas laborum facilis quia obcaecati quidem! Quis quas pariatur ad earum velit assumenda ratione officia, ullam ut tenetur, eaque, perferendis voluptatem magni!</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div class="commentBlock clearfix">
+                      <div class="commentThumb float-left">
+                        <img src="img/blog/commentsImg-4.png" alt="">
+                      </div>
+                      <a class="float-right" href="#"><span class="icon-reply"></span></a>
+                      <div class="commentMeta">
+                        <span class="authorName">Austin Chapman</span>
+                        <span class="commentTime smallText">on 22/03/15</span>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="commentContent">
+                        <p class="smallText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ab, facilis! Accusamus dolorem impedit, debitis suscipit, voluptatibus recusandae quam molestias molestiae, consequuntur tenetur eveniet ea? Odio pariatur delectus tenetur sunt! Reprehenderit ut, laboriosam consectetur ipsam nemo non laudantium natus eum quae est labore voluptate, consequatur. Sapiente nisi aliquid, ullam voluptate at consequatur.</p>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+
+              <!-- Comments Form -->
+              <div class="marginTop">
+                <div class="small-12 columns">
+                  <h5>Leave a comment</h5>
+
+                  <form id="commentsForm" name="commentsForm" method="post">
+
+                    <div class="row">
+                      <div class="large-6 columns">
+                        <label for="formName"></label>
+                            <input type="text" id="formName" name="formName" placeholder="Your Name *" required pattern="[a-zA-Z0-9]+"/>
+                        </div>
+
+                        <div class="large-6 columns">
+                          <label for="formMail"></label>
+                            <input type="email" id="formMail" name="formMail" placeholder="Your Email *" required />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                          <label for="formWebsite"></label>
+                            <input type="url" id="formWebsite" name="formWebsite" placeholder="Website" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-12 columns">
+                          <label for="formMessage"></label>
+                            <textarea id="formMessage" name="formMessage" placeholder="Your Comment*" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="small-12 columns">
+                        <button type="submit" name="formSubmit" id="formSubmit" class="button ghostBtnDark">Post Comment</button>
+                      </div>
+                    </div>
+                  </form> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <!-- Main Wrapper Ends -->
+
+    <!-- Footer Small Starts -->
+    <footer class="footerWrapper">
+      <div class="bgGrey">
+        <div class="row footerSmall">
+          <div class="small-12 medium-12 large-6 columns">
+            <p class="smallText">&copy; 2016 Altius. All rights reserved <a href="http://pixelosaur.com" target="_blank">Pixelosaur</a>.</p>
+          </div>
+
+          <div class="small-12 medium-12 large-6 columns">
+            <div class="socialIcons">
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-dribbble"></span></a>
+              <a href="#"><span class="icon-behance"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+              <a href="#"><span class="icon-google-plus"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Small Ends -->
+
+  </div>
+    
+  <a href="#0" class="backTop">Top</a>
+
+    <div id="switcher">
+      <div id="switcherIcon" class="icon-paintbrush"></div>
+
+      <div class="switcherInner">
+        <div><p>Pick A Color</p></div>
+
+        <div id="styleOptions" class="versions clearfix">
+          <a href="#" rel="css/colors/colors.css" class="bgRed"></a>
+          <a href="#" rel="css/colors/blue-grey.css" class="bgBlueGrey"></a>
+          <a href="#" rel="css/colors/blue.css" class="bgBlue"></a>
+          <a href="#" rel="css/colors/bright-green.css" class="bgBGreen"></a>
+          <a href="#" rel="css/colors/cyan.css" class="bgCyan"></a>
+          <a href="#" rel="css/colors/deep-orange.css" class="bgOrange"></a>
+          <a href="#" rel="css/colors/green.css" class="bgGreen"></a>
+          <a href="#" rel="css/colors/indigo.css" class="bgIndigo"></a>
+          <a href="#" rel="css/colors/light-brown.css" class="bgBrown"></a>
+          <a href="#" rel="css/colors/purple.css" class="bgPurple"></a>
+          <a href="#" rel="css/colors/yellow.css" class="bgYellow"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="buy">
+      <div id="buyIcon" class="icon-basket"></div>
+      <div class="buyInner">
+        <div><a href="http://themeforest.net/item/altius-multipurpose-html5-template/13337089">Purchase Now</a></div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/vendor/jquery.cookie.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
